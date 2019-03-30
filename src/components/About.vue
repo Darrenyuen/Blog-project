@@ -38,10 +38,11 @@ export default {
 #about{
   margin: 40px auto;
   width: 100%;
+  height: 550px;
   margin-top: 100px;
 }
 img{
-  margin-left: 550px;
+  margin-left: 500px;
   float: left;
   border-radius: 50%;
   width: 150px;

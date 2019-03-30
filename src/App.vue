@@ -2,6 +2,7 @@
   <div id="app">
     <Header/>
     <router-view></router-view>
+    <Bottom/>
   </div>
 </template>
 
@@ -13,11 +14,12 @@ import Write from './components/Write'
 import About from './components/About'
 import SingleBlog from './components/SingleBlog'
 import SingleArticle from './components/SingleArticle'
+import Bottom from './components/Bottom'
 
 export default {
   name: 'App',
   components: {
-    Header,Life,ShowBlog,Write,About,SingleBlog,SingleArticle
+    Header,Life,ShowBlog,Write,About,SingleBlog,SingleArticle,Bottom
   }
 }
 </script>
